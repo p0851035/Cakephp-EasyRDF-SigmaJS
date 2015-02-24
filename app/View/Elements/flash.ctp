@@ -1,0 +1,1 @@
+<div class="alert alert-<?= isset($class) ? $class : 'info'; ?>" style="margin-top:76px;margin-bottom:-70px;"><?= $message; ?></div>
