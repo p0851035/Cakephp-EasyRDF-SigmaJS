@@ -8,15 +8,15 @@ Ontologia vous permet d'interroger un ou plusieurs endpoints avec SPARQL et d'ob
 
 [CakePHP 2.6.2](http://www.cakephp.org) - The rapid development PHP framework
 
-[EasyRDF 0.9.0](www.easyrdf.org) - A PHP library designed to make it easy to consume and produce RDF.
+[EasyRDF 0.9.0](http://www.easyrdf.org) - A PHP library designed to make it easy to consume and produce RDF.
 
-[SigmaJS 1.0.3](www.sigmajs.org) - Sigma is a JavaScript library dedicated to graph drawing.
+[SigmaJS 1.0.3](http://www.sigmajs.org) - Sigma is a JavaScript library dedicated to graph drawing.
 
-[Bootstrap 3.3.1](www.http://getbootstrap.com) - Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
+[Bootstrap 3.3.1](http://getbootstrap.com) - Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 
-[jQuery 1.11.2](www.jquery.com) - The Write Less, Do More, JavaScript Library.
+[jQuery 1.11.2](http://www.jquery.com) - The Write Less, Do More, JavaScript Library.
 
-[Font Awesome 4.3.0](www.http://fortawesome.github.io/Font-Awesome/) - The iconic font and CSS toolkit.
+[Font Awesome 4.3.0](http://fortawesome.github.io/Font-Awesome/) - The iconic font and CSS toolkit.
 
 
 ## Note
