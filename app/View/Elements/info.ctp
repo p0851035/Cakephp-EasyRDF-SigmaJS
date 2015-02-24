@@ -28,7 +28,7 @@
 
     <div class="col-md-12" style="margin-bottom:10px;">
         <h4>
-            <a href="https://github.com/p0851035/Ontologia" style="color:white" target="_blank"><i class="fa fa-github fa-2x"></i> <span style="color:black"><?= __('GitHub')?></span></a>
+            <a href="https://github.com/p0851035/Ontologia-easyrdf-cakephp-sigmajs" style="color:white" target="_blank"><i class="fa fa-github fa-2x"></i> <span style="color:black"><?= __('GitHub')?></span></a>
         </h4>
     </div>
     

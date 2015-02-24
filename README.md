@@ -19,8 +19,13 @@ Ontologia vous permet d'interroger un ou plusieurs endpoints avec SPARQL et d'ob
 [Font Awesome 4.3.0](http://fortawesome.github.io/Font-Awesome/) - The iconic font and CSS toolkit.
 
 
+## Online version / Version sur le web
+
+[Ontologia](http://ontologia.ca) - Ontologia website
+
 ## Note
 
 This project is far from being completed and errorless. It may still be of help for some people.
 
 Ce projet est incomplet et contient des erreurs mais vise principalement à aider d'autres compères d'une quelconque façon.
+
