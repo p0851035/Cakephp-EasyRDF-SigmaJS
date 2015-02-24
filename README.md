@@ -23,7 +23,7 @@ Ontologia vous permet d'interroger un ou plusieurs endpoints avec SPARQL et d'ob
 
 [Ontologia](http://ontologia.ca) - Ontologia website
 
-## Note
+## Note / Remarque
 
 This project is far from being completed and errorless. It may still be of help for some people.
 
