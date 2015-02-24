@@ -3,14 +3,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Meto">
-    <meta name="author" content="Meto">
+    <meta name="description" content="Ontologia">
+    <meta name="author" content="Ontologia">
     <title>
     	<?php 
     		if(isset($titre)){
     			echo $titre;
     		}else{
-    			echo "DIC938I";
+    			echo "Ontologia";
     		}?>
     </title>
 </head>

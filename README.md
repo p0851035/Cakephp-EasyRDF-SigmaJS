@@ -1,50 +1,26 @@
-# CakePHP
+# Ontologia
 
-[![Latest Stable Version](https://poser.pugx.org/cakephp/cakephp/v/stable.svg)](https://packagist.org/packages/cakephp/cakephp)
-[![License](https://poser.pugx.org/cakephp/cakephp/license.svg)](https://packagist.org/packages/cakephp/cakephp)
-[![Bake Status](https://secure.travis-ci.org/cakephp/cakephp.png?branch=master)](http://travis-ci.org/cakephp/cakephp)
-[![Code consistency](http://squizlabs.github.io/PHP_CodeSniffer/analysis/cakephp/cakephp/grade.svg)](http://squizlabs.github.io/PHP_CodeSniffer/analysis/cakephp/cakephp/)
+Ontologia allows you to query one or more endpoints with SPARQL and then display a visual representation of the results. Ontologia is a excellent introductory tool to the semantic web.
 
-[![CakePHP](http://cakephp.org/img/cake-logo.png)](http://www.cakephp.org)
+Ontologia vous permet d'interroger un ou plusieurs endpoints avec SPARQL et d'obtenir une visualisation des résultats via l'affichage d'un graphe. Ontologia est un excellent outil d'initiation au web sémantique.
 
-CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC.
-Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility.
+## Ontologia uses / Ontologia utilise:
 
+[CakePHP 2.6.2](http://www.cakephp.org) - The rapid development PHP framework
 
-## Some Handy Links
+[EasyRDF 0.9.0](www.easyrdf.org) - A PHP library designed to make it easy to consume and produce RDF.
 
-[CakePHP](http://www.cakephp.org) - The rapid development PHP framework
+[SigmaJS 1.0.3](www.sigmajs.org) - Sigma is a JavaScript library dedicated to graph drawing.
 
-[CookBook](http://book.cakephp.org) - THE CakePHP user documentation; start learning here!
+[Bootstrap 3.3.1](www.http://getbootstrap.com) - Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 
-[API](http://api.cakephp.org) - A reference to CakePHP's classes
+[jQuery 1.11.2](www.jquery.com) - The Write Less, Do More, JavaScript Library.
 
-[Plugins](http://plugins.cakephp.org/) - A repository of extensions to the framework
-
-[The Bakery](http://bakery.cakephp.org) - Tips, tutorials and articles
-
-[Community Center](http://community.cakephp.org) - A source for everything community related
-
-[Training](http://training.cakephp.org) - Join a live session and get skilled with the framework
-
-[CakeFest](http://cakefest.org) - Don't miss our annual CakePHP conference
-
-[Cake Software Foundation](http://cakefoundation.org) - Promoting development related to CakePHP
+[Font Awesome 4.3.0](www.http://fortawesome.github.io/Font-Awesome/) - The iconic font and CSS toolkit.
 
 
-## Get Support!
+## Note
 
-[#cakephp](http://webchat.freenode.net/?channels=#cakephp) on irc.freenode.net - Come chat with us, we have cake
+This project is far from being completed and errorless. It may still be of help for some people.
 
-[Google Group](https://groups.google.com/group/cake-php) - Community mailing list and forum
-
-[GitHub Issues](https://github.com/cakephp/cakephp/issues) - Got issues? Please tell us!
-
-[Roadmaps](https://github.com/cakephp/cakephp/wiki#roadmaps) - Want to contribute? Get involved!
-
-
-## Contributing
-
-[CONTRIBUTING.md](CONTRIBUTING.md) - Quick pointers for contributing to the CakePHP project
-
-[CookBook "Contributing" Section (2.x)](http://book.cakephp.org/2.0/en/contributing.html) [(3.0)](http://book.cakephp.org/3.0/en/contributing.html) - Version-specific details about contributing to the project
+Ce projet est incomplet et contient des erreurs mais vise principalement à aider d'autres compères d'une quelconque façon.
