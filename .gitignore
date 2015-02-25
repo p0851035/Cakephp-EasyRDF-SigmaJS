@@ -1,26 +1,36 @@
+# User specific & automatically generated files #
+#################################################
+/app/Config/database.php
+/app/tmp
+/lib/Cake/Console/Templates/skel/tmp/
+/plugins
+/vendors
+/build
+/dist
+/tags
 
-app/tmp/cache/cake_toolbar_cache3acd56a54fb2102fbd061ac0244d0359
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+app/tmp/cache/persistent/myapp_cake_core_file_map
 
-app/tmp/cache/cake_toolbar_cache3acd56a54fb2102fbd061ac0244d0359
+app/tmp/cache/models/myapp_cake_model_dev_mdeie_list
 
-app/tmp/cache/cake_toolbar_cache569310385847a0a23dd0c8ef5ef28c4c
+app/tmp/cache/models/myapp_cake_model_dev_mdeie_entreprises
 
-app/tmp/cache/cake_toolbar_cache3acd56a54fb2102fbd061ac0244d0359
+app/tmp/cache/models/myapp_cake_model_dev_mdeie_appartenances
 
-app/tmp/cache/cake_toolbar_cachee11eecd3198428159dda109f2501c0e1
+app/tmp/cache/models/myapp_cake_model_dev_mdeie_progressions
 
-app/tmp/cache/cake_toolbar_cacheed58826508c2969a4fc53fbc422ea62a
+app/tmp/cache/persistent/myapp_cake_core_method_cache
 
-app/tmp/cache/cake_toolbar_cache3acd56a54fb2102fbd061ac0244d0359
+app/tmp/cache/cake_toolbar_cache
 
-app/tmp/cache/cake_toolbar_cache3acd56a54fb2102fbd061ac0244d0359
-
-app/tmp/cache/cake_toolbar_cache3acd56a54fb2102fbd061ac0244d0359
-
-app/tmp/cache/cake_toolbar_cache3acd56a54fb2102fbd061ac0244d0359
-
-app/tmp/cache/cake_toolbar_cache3acd56a54fb2102fbd061ac0244d0359
-
-app/tmp/cache/cake_toolbar_cache3acd56a54fb2102fbd061ac0244d0359
-
-app/tmp/cache/cake_toolbar_cache3acd56a54fb2102fbd061ac0244d0359
+*.log
