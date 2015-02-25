@@ -17,12 +17,21 @@ class RdfRequestsController extends AppController{
 
 	public function index(){
 
+
 		// Si nécessaire de contrôler mémoire et temps des requêtes
 		//ini_set('memory_limit', '256M');
 		//set_time_limit(0);
 
 		//Librairie Easyrdf
 		require APP . 'Vendor' . DS . "easyrdf/lib/EasyRdf.php";
+
+
+		//Bogue safari
+		$user_agent = $_SERVER['HTTP_USER_AGENT']; 
+		if (strpos( $user_agent, 'Safari') !== false)
+			{
+			   
+			}
 
 		// Déclaration variables de base
 		// Init Array contenant les données reformatées de la requête
@@ -43,11 +52,21 @@ class RdfRequestsController extends AppController{
 
 		//Chargement librairie personnel dans lib/Definition.php
 		$definition = new Definition();
-		
+
+		// Détection safari parce qu'il y a un bogue avec le javascript?
+		$safari = false;
+		if (strpos( $user_agent, 'Safari') !== false)
+		{
+		   $safari = true;
+		}
+		$this->set('safari', $safari);
+
+
 		// Liste des endpoints
 		$endpoints = $definition->aEndpoints();
 		//Envoi à la vue
 		$this->set('endpoints', $endpoints);
+
 
 		//Liste des préfixes
 		$prefixes = EasyRdf_Namespace::namespaces();

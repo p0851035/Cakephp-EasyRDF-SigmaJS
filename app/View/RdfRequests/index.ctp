@@ -6,6 +6,18 @@ var data = <?php echo json_encode($data) ?>;
 
 <?= $this->element('info');?>
 
+<?php if($safari == true):?>
+<div class="row text-center" style="background-color: #fff8eb">
+	<h3>
+		Nous vous conseillons d'utiliser un autre navigateur que Safari.
+	</h3>
+
+	<h3>
+		We recommand to use another browser than Safari
+	</h3>
+</div>
+<?php endif;?>
+
 <div class="col-md-12">
 	<div class="row">
 	<h3><?=__('Requêtes SPARQL')?></h3>
