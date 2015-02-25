@@ -46,17 +46,6 @@ class RdfRequestsController extends AppController{
 		//Chargement librairie personnel dans lib/Definition.php
 		$definition = new Definition();
 
-		//Bogue safari
-		$user_agent = $_SERVER['HTTP_USER_AGENT'];
-		// Détection safari parce qu'il y a un bogue avec le javascript?
-		$safari = false;
-		if (strpos( $user_agent, 'Safari') !== false)
-		{
-		   $safari = true;
-		}
-		$this->set('safari', $safari);
-
-
 		// Liste des endpoints
 		$endpoints = $definition->aEndpoints();
 		//Envoi à la vue
@@ -91,6 +80,13 @@ class RdfRequestsController extends AppController{
 			}else{
 				$myEndpoint = $this->request->data['RdfRequest']['endpoint'];
 			}
+
+
+			if($myEndpoint == null){
+				
+				$this->redirect($this->referer());
+					
+			}
 			
 			// Requête au endPoint
 			$sparql = new EasyRdf_Sparql_Client($myEndpoint);
@@ -119,7 +115,6 @@ class RdfRequestsController extends AppController{
 	        		$iData_rows = $Query_Results->numRows();
 	        		// Champs demandés
 	        		$aGetFields = $Query_Results->getFields();
-
 
             		// Requête select ou ask. On a un objet EasyRdf_Sparql_Result.
 					if($Query_Results->getType() == 'bindings'){

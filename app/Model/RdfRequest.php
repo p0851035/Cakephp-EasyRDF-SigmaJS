@@ -57,8 +57,7 @@ class RdfRequest extends AppModel{
                 }elseif(get_class($object) == 'EasyRdf_Literal_Integer'){
                    $uris[$key][$key2]['literal'] = $object->toRdfPhp();
                 }else{
-
-
+                    // cas?
                 }
             }
         }

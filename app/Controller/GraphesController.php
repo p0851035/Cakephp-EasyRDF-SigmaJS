@@ -12,14 +12,12 @@ App::uses('AppController','Controller');
 class GraphesController extends AppController{
 
 	public function index(){
-
 		// Si le request->data n'Est pas vide
 		if(!empty($this->request->data['Graphe']['data'])){
 
 			// Basket
 			if($this->request->data['basket'] == 'true'){
 				$data = $this->Session->read('basket');
-
 			// data
 			}else{
 				$data = unserialize($this->request->data['Graphe']['data']);

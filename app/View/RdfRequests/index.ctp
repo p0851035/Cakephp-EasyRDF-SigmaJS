@@ -6,18 +6,6 @@ var data = <?php echo json_encode($data) ?>;
 
 <?= $this->element('info');?>
 
-<?php if($safari == true):?>
-<div class="row text-center" style="background-color: #fff8eb">
-	<h3>
-		Nous vous conseillons d'utiliser un autre navigateur que Safari.
-	</h3>
-
-	<h3>
-		We recommand to use another browser than Safari
-	</h3>
-</div>
-<?php endif;?>
-
 <div class="col-md-12">
 	<div class="row">
 	<h3><?=__('Requêtes SPARQL')?></h3>
@@ -28,6 +16,7 @@ var data = <?php echo json_encode($data) ?>;
 		<div class="col-md-6">
 			<?= $this->Form->create('RdfRequest');?>
 			<div class="col-md-12">
+			
 				<!-- Endpoint -->
 				<div class="col-md-6">
 					<div class="row">
@@ -44,6 +33,7 @@ var data = <?php echo json_encode($data) ?>;
 					</div>
 				</div>
 
+
 				<div class="col-md-12">
 					<div class="row">
 						<?= $this->Form->input('endpoint', array(
@@ -54,7 +44,6 @@ var data = <?php echo json_encode($data) ?>;
 						));?>
 					</div>
 				</div>
-
 				<?php if($Custom_Endpoint):?>
 					<div class="col-md-12 space" style="display:block; " id="autre">
 				<?php else:?>
@@ -67,7 +56,9 @@ var data = <?php echo json_encode($data) ?>;
 							'class' => 'form-control'
 						));?>
 					</div>
+
 				</div>
+
 			</div>
 			<!-- PRÉFIXE -->
 			<div class="col-md-12 space">
