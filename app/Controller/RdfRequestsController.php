@@ -26,13 +26,6 @@ class RdfRequestsController extends AppController{
 		require APP . 'Vendor' . DS . "easyrdf/lib/EasyRdf.php";
 
 
-		//Bogue safari
-		$user_agent = $_SERVER['HTTP_USER_AGENT']; 
-		if (strpos( $user_agent, 'Safari') !== false)
-			{
-			   
-			}
-
 		// Déclaration variables de base
 		// Init Array contenant les données reformatées de la requête
 		$data = array();
@@ -53,6 +46,8 @@ class RdfRequestsController extends AppController{
 		//Chargement librairie personnel dans lib/Definition.php
 		$definition = new Definition();
 
+		//Bogue safari
+		$user_agent = $_SERVER['HTTP_USER_AGENT'];
 		// Détection safari parce qu'il y a un bogue avec le javascript?
 		$safari = false;
 		if (strpos( $user_agent, 'Safari') !== false)
